@@ -14,7 +14,7 @@ function App() {
           <p>Your solution for sustainable agriculture and landscaping in Morocco.</p>
  
       <div className="card">
-        <ConnectButton chain={baseSepolia} client={client} />
+      
       </div>
     </>
   )
