@@ -1,22 +1,14 @@
- import './App.css'
-
+import './App.css';
 
 function App() {
-  console.log("app rendered")
   return (
-    <>
-      <div>
-        <a href="https://janat.ma" target="_blank">
-          <img src="https://janati.netlify.app/dakhla1.webp" className="" alt="thirdweb logo" />
-        </a>
+    <div className="container">
+      <div className="overlay">
+        <h1>Welcome to Janat Project</h1>
+        <p>Building sustainable irrigation systems for agriculture and energy.</p>
       </div>
-       <h1>Welcome to Janat.ma</h1>
-          <p>Your solution for sustainable agriculture and landscaping in Morocco.</p>
- 
-      <div className="card">
-      
-      </div>
-    </>
-  )
+    </div>
+  );
 }
-export default App
+
+export default App;
