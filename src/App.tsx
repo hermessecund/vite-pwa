@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://thirdweb.com" target="_blank">
+        <a href="https://janat.ma" target="_blank">
           <img src="https://janati.netlify.app/dakhla1.webp" className="logo" alt="thirdweb logo" />
         </a>
       </div>
