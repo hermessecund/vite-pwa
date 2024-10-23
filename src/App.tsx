@@ -41,6 +41,15 @@ function App() {
         <section id="home">
           <h1>Welcome to Janat.ma</h1>
           <p>Your solution for sustainable agriculture and landscaping in Morocco.</p>
+      <div>
+        <a href="https://thirdweb.com" target="_blank">
+          <img src="https://thirdweb.com/brand/thirdweb-icon.png" className="logo" alt="thirdweb logo" />
+        </a>
+      </div>
+      <h1>Build a PWA with thirdweb</h1>
+      <div className="card">
+        <ConnectButton chain={baseSepolia} client={client} />
+      </div>
         </section>
 
         <section id="irrigation">
