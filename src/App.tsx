@@ -2,6 +2,7 @@ import './App.css'
 import { ConnectButton } from 'thirdweb/react'
 import { client } from './lib/client.ts'
 import { baseSepolia } from 'thirdweb/chains'
+import { useState } from 'react'
 
 function App() {
   console.log("Janat App rendered");
