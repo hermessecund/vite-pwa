@@ -1,4 +1,4 @@
-import './App.css';
+
 import { useState } from 'react'
 import { Menu, X, Droplet, Leaf, BookOpen, Facebook, Twitter, Instagram } from 'lucide-react'
 
